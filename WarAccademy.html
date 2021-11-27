@@ -1,0 +1,5259 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://forum.waraccademy.com/index.php -->
+<html id="XenForo" lang="it-IT" dir="LTR" class="Public LoggedOut Sidebar  Responsive pageIsLtr hasWelcomeBlock  hasTabLinks  hasSearch   is-sidebarOpen hasLeftSidebar is-setWidth navStyle_3 pageStyle_2 hasFlexbox hasJs Touch HasDragDrop rgba draganddrop csspositionsticky supports canvas canvastext emoji fontface no-touchevents borderradius cssanimations csstransforms csstransforms3d csstransitions flexbox flexboxlegacy no-flexboxtweener scrollDirection-up" xmlns:fb="http://www.facebook.com/2008/fbml" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+		<!--<base href="https://forum.waraccademy.com/">--><base href=".">
+		<script src="./WarAccademy_files/sdk.js.download" async="" crossorigin="anonymous"></script><script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://forum.waraccademy.com/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>WarAccademy</title>
+
+	
+	<link rel="stylesheet" href="./WarAccademy_files/css.php">
+
+	<link rel="stylesheet" href="./WarAccademy_files/css(1).php">
+
+
+	<link rel="stylesheet" href="./WarAccademy_files/css(2).php">
+
+	<style>
+	/*** UIX -- PER USER STYLES ***/
+
+	
+
+	
+
+
+	
+
+</style>
+
+	<link rel="stylesheet" href="./WarAccademy_files/css(3).php">
+
+	
+
+	<style>
+/* Node Styling */
+.node.node_34 > .nodeInfo {}
+</style>
+
+	
+
+	
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="./WarAccademy_files/font-awesome.min.css" rel="stylesheet">
+<link href="./WarAccademy_files/css" rel="stylesheet" type="text/css">
+
+
+<script src="./WarAccademy_files/jquery.min.js.download"></script>
+
+	<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+
+
+
+<script src="./WarAccademy_files/xenforo.js.download"></script>
+
+
+
+
+<!--[if lt IE 9]>
+	
+		 
+        	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	        
+	        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	        
+	        <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	
+
+<![endif]-->
+
+
+
+<script>
+	uix = {
+		elm: {},
+		fn:{},
+		init: function(){
+			if (uix.betaMode) {
+				console.group('uix.%cinit()', 'color:#3498DB');
+			}
+			for(var x=0;x<uix.events.init.length;x++){
+				uix.events.init[x]()
+		  	}
+		  	console.groupEnd('uix.%cinit()','color:#3498DB')
+		},
+	  	events: {init:[]},
+	  	on: function(event, fn){
+	  		if(event=='init'){
+	  			uix.events.init.push(fn)
+	  		}
+	  	},
+
+		betaMode				: parseInt('0'),
+		jsPathUsed				: 'intrepid',
+		jsGlobal				: parseInt('0'),
+
+
+	  	version					: '1.5.9.1',
+	  	jsHeadVersion				: '1.5.9.1',
+	  	addonVersion				: '1010270',
+	  	jsCacheBust				: '1',
+	  	contentTemplate				: 'forum_list',
+
+		javascriptInitHide			: parseInt('1'),
+		globalPadding 				: parseInt('20px'),
+		sidebarWidth				: parseInt('250px'),
+		mainContainerMargin  	        	: '270px',
+		maxResponsiveWideWidth   		: parseInt('800px'),
+		maxResponsiveMediumWidth 		: parseInt('610px'),
+		maxResponsiveNarrowWidth 		: parseInt('480px'),
+		sidebarMaxResponsiveWidth		: parseInt('800px'),
+		
+			responsiveMessageBreakpoint		: parseInt('610px'),
+		
+		sidebarMaxResponsiveWidthStr		: '800px',
+
+		
+			offCanvasRightTriggerWidth	: parseInt('800px'),
+		
+
+		
+			offCanvasLeftTriggerWidth	: parseInt('800px'),
+		
+
+		
+			
+				offCanvasNavTriggerWidth	: parseInt('800px'),
+			
+		
+		
+			
+				offCanvasVisitorTriggerWidth	: parseInt('800px'),
+			
+		
+
+		offcanvasTriggerAnimationDuration	: parseInt('300ms'),
+
+
+
+
+		dropdownMenuAnimationSpeed		: parseInt('0ms'),
+		inlineAlertBalloons			: (parseInt('1') && !parseInt('0')) || parseInt('0'),
+
+		jumpToFixedDelayHide			: parseInt('1'),
+
+		stickyNavigationMinWidth 		: parseInt('0'),
+		stickyNavigationMinHeight		: parseInt('600'),
+		stickyNavigationMaxWidth 		: parseInt('0'),
+		stickyNavigationMaxHeight		: parseInt('0'),
+		stickyNavigationPortraitMinWidth 	: parseInt('320'),
+		stickyNavigationPortraitMinHeight	: parseInt('500'),
+		stickyNavigationPortraitMaxWidth 	: parseInt('0'),
+		stickyNavigationPortraitMaxHeight	: parseInt('0'),
+		stickySidebar 				: 1,
+		
+			sidebarInnerFloat 		: "left",
+		
+		RTL					: 0,
+		stickyItems 				: {},
+		stickyGlobalMinimumPosition		: parseInt('200px'),
+		stickyGlobalScrollUp			: parseInt('0'),
+		stickyDisableIOSThirdParty		: parseInt('1'),
+		preventAlwaysSticky			: parseInt('0'),
+
+		searchMinimalSize			: parseInt('800px'),
+
+		searchPosition				: parseInt('4'),
+
+		nodeStyle				: parseInt('3'),
+		pageStyle				: parseInt('2'),
+
+		enableBorderCheck			: parseInt('1'),
+		enableULManager				: parseInt('1'),
+
+		threadSlidingAvatar			: parseInt('0'),
+		threadSlidingExtra			: parseInt('1'),
+		threadSlidingHover			: parseInt('0'),
+		threadSlidingStaffShow			: parseInt('0'),
+		threadSlidingGlobalEnable		: parseInt('1'),
+
+		signatureHidingEnabled			: parseInt('0'),
+		signatureHidingEnabledAddon		: parseInt('1'),
+		signatureMaxHeight			: parseInt('100px'),
+		signatureHoverEnabled			: parseInt('0'),
+
+		enableStickyFooter 			: parseInt('1'),
+		stickyFooterBottomOffset 		: parseInt('20px') * 2,
+
+		
+			sidebarStickyBottomOffset	: parseInt('5'),
+		
+
+	  	
+			offCanvasSidebar			: 1,
+
+			
+				offCanvasSidebarVisitorTabs		: 1,
+			
+
+		
+
+		offcanvasLeftStatic			: 1 && parseInt('0') && parseInt('1'),
+		offcanvasRightStatic			: 0 && parseInt('0') && parseInt('1'),
+		offcanvasLeftStaticBreakpoint		: parseInt('1300px'),
+		offcanvasRightStaticBreakpoint		: parseInt('1300px'),
+
+		reinsertWelcomeBlock			: parseInt('0'),
+
+		sidebarCookieExpire			: '',
+		canCollapseSidebar			: '1',
+
+		cookiePrefix				: 'xf_',
+		sidebarLocation 			: parseInt('1'),
+
+		collapsibleSidebar			: parseInt('1'),
+		collapsedNodesDefault			: '',
+		nodeGridCollapseEnabled			: parseInt('0'),			
+		widthToggleUpper			: '100%',
+		widthToggleLower			: '1170px',
+		
+			toggleWidthEnabled		: parseInt('1'),
+		
+		toggleWidthBreakpoint			: parseInt('1210'),
+		collapsibleNodes			: parseInt('1'),
+		collapsibleSticky			: parseInt('1'),
+		ajaxWidthToggleLink			: 'index.php?uix/toggle-width',
+		ajaxStickyThreadToggleLink		: 'index.php?uix/toggle-sticky-threads',
+		ajaxStickyThreadExpandLink		: 'index.php?uix/expand-sticky-threads',
+		ajaxStickyThreadCollapseLink		: 'index.php?uix/collapse-sticky-threads',
+		ajaxSidebarToggleLink			: 'index.php?uix/toggle-sidebar',
+
+		stickySidebarDelayInit			: parseInt('1'),
+		stickySidebarLegacy			: parseInt('0'),
+		stickySidebarDisableIOS			: parseInt('1'),
+
+		user					: {
+								'themeName'		: 'Intrepid',
+								'-themeParents'		: '10,0',
+								'-themeModified'	: '1637672740',
+								'-themeSelectable'	: '1',
+								languageName		: 'Italiano',
+								stickyEnableUserbar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableNav		: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableSidebar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								widthToggleState	: (parseInt('0') == parseInt('0')) ? parseInt('0') : parseInt('0'),
+								stickyThreadsState	: (parseInt('') == parseInt('')) ? (parseInt('') > 0) : 0,
+								
+									sidebarState	: 0,
+								
+								
+									collapseUserInfo : 1,
+								
+								
+									signatureHiding : 1,
+								
+								isAdmin			: parseInt('0"')
+							}
+	};
+
+	if(uix.stickyNavigationMaxWidth == 0){uix.stickyNavigationMaxWidth = 999999}
+	if(uix.stickyNavigationMaxHeight == 0){uix.stickyNavigationMaxHeight = 999999}
+	if(uix.stickyNavigationPortraitMaxWidth == 0){uix.stickyNavigationPortraitMaxWidth = 999999}
+	if(uix.stickyNavigationPortraitMaxHeight == 0){uix.stickyNavigationPortraitMaxHeight = 999999}
+
+	
+		uix.stickyItems['#navigation'] = {normalHeight:parseInt('54'), stickyHeight:parseInt('48')}
+
+		var subElement = null;
+		
+			//if tablinks are visible
+			uix.stickyItems['#navigation'].options = {subElement: '#navigation .tabLinks', subNormalHeight: parseInt('36'), subStickyHeight: parseInt('36'), subStickyHide: 0 == 1 , scrollSticky: uix.stickyGlobalScrollUp }
+		
+
+	
+
+	
+
+	$(document).ready(function(){
+
+	//put jquery code here
+
+
+});
+
+	uix.debug = function() {
+		result = "\n\n############============   Begin Copying Here   ============############\n\n";
+		result += "Error: the functions file was not found.";
+		result += "\n\n############============   End Copying Here   ============############\n\n";
+
+		uix.fixJsVisibility();
+
+		console.log(result);
+	}
+
+</script>
+
+<script src="./WarAccademy_files/functions.min.js.download"></script>
+
+<script>
+	uix.adminJsError = function(errMsg) {
+		console.error(errMsg);
+
+		
+	}
+
+	uix.fixJsVisibility = function() {
+		var userBar = $('.hasJs #userBar');
+		var nodeList = $('.hasJs #forums, .hasJs .category_view .nodeList, .hasJs .watch_forums .nodeList');
+		var panels = $('.js-uix_panels')
+		if (userBar.length) userBar.css('display', 'block');
+		if (nodeList.length) nodeList.css('visibility', 'visible');
+		if (panels.length) $('.js-uix_panels').removeClass('needsInit');
+		$('html').removeClass('uix_javascriptNeedsInit');
+	}
+
+	uix.catchJsError = function(err) {
+		console.log("\n\n############============   Begin Copying Here   ============############\n\n")
+		var errMsg = "Uh Oh!  It looks like there's an error in your page's javascript.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this and believe it is due to a bug in your Audentio Design theme, contact Audentio support and include a copy of the text between the designated areas from your javascript console.  This is the error: \n\n" + err ;
+		uix.fixJsVisibility();
+		uix.adminJsError(errMsg);
+		console.log("\n\n");
+		console.log(err);
+		console.log("\n\n");
+		try {
+			uix.debug(true);
+		} catch (err) {
+			console.log("Unable to include uix.debug();");
+		}
+
+		console.log("\n\n############============   End Copying Here   ============############\n\n");
+	}
+
+	$(document).ready(function(){
+		if (typeof(audentio) === 'undefined' || typeof(uix.jsVersion) === 'undefined') {
+			var errMsg = 'Uh Oh!  It looks like the javascript for your theme was not found in /js/audentio/intrepid/.\n\n';
+			if (uix.jsGlobal) {
+				errMsg += 'Your forum is set to use the same javascript directory for all your themes.  Consider disabling this or modifying the directory.  Options are located under Options > [UI.X] General.\n\n'
+			} else {
+				errMsg += 'Your theme has set the location of its javascript directory.  You may need to modify the javascript directory location style property located under [UI.X] Global Settings > Javascript Path.\n\n'
+			}
+			errMsg += 'If your files are in the directory specified, ensure that your file permissions allow them to be read.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this, contact Audentio support.  This error has also been logged to the javascript console.';
+
+			uix.fixJsVisibility();
+
+			uix.adminJsError(errMsg);
+		} else if (uix.jsHeadVersion.split('_')[0] != uix.jsVersion.split('_')[0]) {
+			var errMsg = 'Uh Oh! It looks like the version of your javascript functions file does not match the version of your page_container_js_head template.  \n\nYour javascript functions file is version "' + uix.jsVersion + '". \nYour page_container_js_head is version "' + uix.jsHeadVersion + '".  \n\nIf your functions file version number is higher, ensure that you have merged all templates (especially page_container_js_head).  If your page_container_js_head version number is higher, ensure that you have correctly uploaded the latest version of the javascript functions file and that you have cleared anything that could cache an old version of the javascript (CDN / Cloudflare / etc.). \n\nThis issue could cause parts of your forum to not display or function correctly.  If this does not resolve the issue contact Audentio support.  This error has also been logged to the javascript console.';
+			
+			uix.fixJsVisibility();
+			
+			uix.adminJsError(errMsg);
+		}
+	});
+</script>
+
+<script>
+	try {
+		uix.dateHelper.phrase = {
+			now: 'now',
+			second: 's',
+			minute: 'm',
+			hour: 'h',
+			day: 'd',
+			week: 'w',
+			year: 'y',
+			century: 'c',
+			ago: '{time} ago',
+			future: 'in {time}'
+		}
+
+
+		uix.sticky.stickyMinDist = parseInt('50');
+
+		$(document).ready(function(){
+			try {
+				
+					audentio.grid.parse('{"default":{"maximum_columns":{"value":"6"},"minimum_column_width":{"value":"330"},"fill_last_row":{"value":"0"},"column_widths":{"value":"0"},"custom_column_widths":{"count":"","layouts":{"1":{"1":""},"2":{"1":"","2":""},"3":{"1":"","2":"","3":""},"4":{"1":"","2":"","3":"","4":""},"5":{"1":"","2":"","3":"","4":"","5":""},"6":{"1":"","2":"","3":"","4":"","5":"","6":""}}},"separator":true,"separator_type":"grid","separator_max_width":0},"category":{"maximum_columns":{"value":"1"},"minimum_column_width":{"value":""},"fill_last_row":{"value":"0"},"column_widths":{"value":"0"},"custom_column_widths":{"count":"","layouts":{"1":{"1":""}}},"separator":true,"separator_type":"grid","separator_max_width":0}}');
+					
+
+audentio.grid.addSizeListener('global', 'audentio_grid_xs', 200, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_sm', 300, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_md', 400, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_lg', 600, 0);
+audentio.grid.addSizeListener('global', 'audentio_grid_xl', 10000, 0);
+
+audentio.grid.addSizeListener('global', 'below-xs', 200, 0);
+audentio.grid.addSizeListener('global', 'below-sm', 300, 0);
+audentio.grid.addSizeListener('global', 'below-md', 400, 0);
+audentio.grid.addSizeListener('global', 'below-lg', 600, 0);
+audentio.grid.addSizeListener('global', 'below-xl', 10000, 0);
+
+audentio.grid.addSizeListener('global', 'above-xs', 99999, 201);
+audentio.grid.addSizeListener('global', 'above-sm', 99999, 301);
+audentio.grid.addSizeListener('global', 'above-md', 99999, 401);
+audentio.grid.addSizeListener('global', 'above-lg', 99999, 601);
+audentio.grid.addSizeListener('global', 'above-xl', 99999, 10001);
+
+audentio.grid.addSizeListener('global', 'node--xs', 300, 0);
+audentio.grid.addSizeListener('global', 'node--sm', 400, 301);
+audentio.grid.addSizeListener('global', 'node--md', 600, 401);
+audentio.grid.addSizeListener('global', 'node--lg', 10000, 601);
+audentio.grid.addSizeListener('global', 'node--xl', 99999, 10001);
+				
+				
+					audentio.pagination.enabled = true;
+					
+						audentio.grid.parentEle = 'navigation';
+					
+					audentio.pagination.outOfPhrase = '<span id="audentio_postPaginationCurrent" class="uix_postPagination_x"></span> / <span id="audentio_postPaginationTotal" class="uix_postPagination_y"></span>';
+					audentio.pagination.enterIndexPhrase = 'Enter Index';
+					audentio.pagination.offset = parseInt('-26px');
+				
+
+				uix.initFunc();
+			} catch (err) {
+				uix.catchJsError(err);
+			}
+		});
+	} catch (err) {
+		uix.catchJsError(err);
+	}
+</script>
+
+
+
+	
+	<link rel="apple-touch-icon" href="https://forum.waraccademy.com/styles/default/xenforo/logo.og.png">
+	<link rel="alternate" type="application/rss+xml" title="Feed RSS per WarAccademy" href="https://forum.waraccademy.com/index.php?forums/-/index.rss">
+	
+	<link rel="canonical" href="https://forum.waraccademy.com/index.php">
+	<meta name="description" content="Forum by WarAccademy">
+		<meta property="og:site_name" content="WarAccademy">
+	
+	<meta property="og:image" content="https://forum.waraccademy.com/styles/default/xenforo/logo.og.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://forum.waraccademy.com/index.php">
+	<meta property="og:title" content="WarAccademy">
+	<meta property="og:description" content="Forum by WarAccademy">
+	
+	
+	
+
+
+
+
+	
+		<meta name="theme-color" content="#E45045">
+		<meta name="msapplication-TileColor" content="#E45045">
+	
+
+<script src="./WarAccademy_files/sdk.js(1).download" async=""></script><script async="" src="./WarAccademy_files/widgets.js.download"></script><style type="text/css"></style><script charset="utf-8" src="./WarAccademy_files/button.0d6aa7fd095b2a9dd19cc66c7c2ed64b.js.download"></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+
+<body style="" data-new-gr-c-s-check-loaded="14.1040.0" data-gr-ext-installed="">
+
+	
+
+	
+		
+
+<div id="loginBar">
+	<div class="pageContent">
+		<span class="helper"></span>
+	<form action="https://forum.waraccademy.com/index.php?login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Nome Utente o indirizzo e-mail:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101"></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Sei già registrato?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105">
+						No, voglio registrarmi adesso.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler">
+						Si, la mia password è:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102">
+						<div class="lostPassword"><a href="https://forum.waraccademy.com/index.php?lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Hai perso la password?</a></div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Entra" tabindex="104" data-loginphrase="Entra" data-signupphrase="Registrati">
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103"> Resta collegato al forum</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1">
+	<input type="hidden" name="redirect" value="/index.php">
+	<input type="hidden" name="_xfToken" value="">
+
+</form></div>
+	<div class="pageWidth">
+
+		
+
+	</div>
+</div>
+	
+
+	
+		
+		<div class="js-uix_panels uix_panels">
+			
+				
+
+<aside class="js-sidePanelWrapper sidePanelWrapper  sidePanelWrapper--left" style="position: fixed;">
+	<a href="https://forum.waraccademy.com/#" class="js-panelMask uix_panelMask"></a>
+	
+		<div class="sidePanel sidePanel--nav">
+			<nav>
+<ul class="sidePanel__navTabs">
+	
+							<!-- home -->
+							
+								
+								<li class="navTab home"><a href="https://waraccademy.com/" class="navLink">Home</a></li>
+								
+							
+
+
+								<!-- extra tabs: home -->
+								
+
+
+								<!-- forums -->
+								
+									
+										<li class="navTab forums selected is-active">
+
+											<a href="https://forum.waraccademy.com/index.php" class="navLink">Forum</a>
+											<a href="https://forum.waraccademy.com/index.php" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-collapseDropdown"></i></a>
+								
+											<div class="tabLinks" style="max-height: 99px;">
+									
+													<ul class="secondaryContent blockLinksList">
+													
+														
+														<li><a href="https://forum.waraccademy.com/index.php?search/&amp;type=post">Cerca nei Forum</a></li>
+														
+														<li><a href="https://forum.waraccademy.com/index.php?find-new/posts" rel="nofollow">Recent Posts</a></li>
+													
+													</ul>
+									
+											</div>
+										</li>
+								
+								
+
+								<!-- extra tabs: middle -->
+								
+								
+									
+										
+											<li class="navTab xfx_staff ">
+								
+											<a href="https://forum.waraccademy.com/index.php?XenStaff/" class="navLink">Staff</a>
+											<a href="https://forum.waraccademy.com/index.php?XenStaff/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+								
+											<div class="tabLinks">
+													<ul class="secondaryContent blockLinksList">
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Founder">Founder</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#CoFounder">CoFounder</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Admin">Admin</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Developer">Developer</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Gestore">Gestore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Mod">Mod</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Helper">Helper</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Supporter">Supporter</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Ispettore">Ispettore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Helper+">Helper+</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Collaboratore">Collaboratore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#SrMod">SrMod</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#SrAdmin">SrAdmin</a></li>
+
+              
+	</ul>
+											</div>
+										</li>
+										
+									
+								
+								
+
+
+								<!-- members -->
+								
+									
+											<li class="navTab members ">
+
+												<a href="https://forum.waraccademy.com/index.php?members/" class="navLink">Membri</a>
+												<a href="https://forum.waraccademy.com/index.php?members/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+									
+												<div class="tabLinks">
+									
+													<ul class="secondaryContent blockLinksList">
+													
+														<li><a href="https://forum.waraccademy.com/index.php?members/">Notable Members</a></li>
+														
+														<li><a href="https://forum.waraccademy.com/index.php?online/">Visitatori on-line</a></li>
+														<li><a href="https://forum.waraccademy.com/index.php?recent-activity/">Ultime Attività</a></li>
+														<li><a href="https://forum.waraccademy.com/index.php?find-new/profile-posts">New Profile Posts</a></li>
+													
+													</ul>
+									
+											</div>
+										</li>
+								
+
+								<!-- extra tabs: end -->
+								
+
+	
+
+</ul>
+</nav>
+		</div>
+	
+</aside>
+			
+			
+				
+
+<aside class="js-sidePanelWrapper sidePanelWrapper  sidePanelWrapper--right" style="position: fixed;">
+	<a href="https://forum.waraccademy.com/#" class="js-panelMask uix_panelMask"></a>
+	
+		
+			<div class="sidePanel sidePanel--login">
+				<form action="https://forum.waraccademy.com/index.php?login/login" method="post" class="xenForm--uixLoginForm xenForm">
+
+	<dl class="ctrlUnit fullWidth">
+		<dt><label for="ctrl_pageLogin_login">Nome Utente o indirizzo e-mail:</label></dt>
+		<dd><input type="text" name="login" value="" id="ctrl_pageLogin_login" class="textCtrl uix_fixIOSClickInput" tabindex="21"></dd>
+	</dl>
+
+	<dl class="ctrlUnit fullWidth">
+		<dt><label for="ctrl_pageLogin_password">Password:</label></dt>
+		<dd>
+			<input type="password" name="password" class="textCtrl uix_fixIOSClickInput" id="ctrl_pageLogin_password" tabindex="22">
+			<div><a href="https://forum.waraccademy.com/index.php?lost-password/" class="OverlayTrigger OverlayCloser" tabindex="26">Hai perso la password?</a></div>
+		</dd>
+	</dl>
+
+	
+
+	<dl class="ctrlUnit submitUnit">
+		<dd>
+			<input type="submit" class="button primary" value="Entra" data-loginphrase="Entra" data-signupphrase="Registrati" tabindex="24">
+			<label class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_pageLogin_remember" tabindex="23"> Resta collegato al forum</label>
+		</dd>
+	</dl>
+
+	
+
+	<input type="hidden" name="cookie_check" value="1">
+	<input type="hidden" name="_xfToken" value="">
+	<input type="hidden" name="redirect" value="/index.php">
+	
+
+</form>
+			</div>
+		
+	
+</aside>
+			
+
+			<div class="mainPanelWrapper">
+				<a href="https://forum.waraccademy.com/#" class="js-panelMask uix_panelMask"></a>
+
+	
+
+	
+
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+<div class="pageWidth pageWidth--outerMost">
+<div id="uix_wrapper">
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+
+<div id="headerMover">
+	<div id="headerProxy"></div>
+<header>
+	
+
+
+<div id="header">
+	
+
+
+
+	
+
+	
+		<div id="logoBlock" class="header__blockItem ">
+
+	
+	<div class="pageWidth">
+	
+
+		<div class="pageContent defaultBorderRadius">
+
+		
+
+		
+		<div id="logo"><a href="https://waraccademy.com/">
+			<span></span>
+			<h2 class="uix_logoText"><i class="uix_icon fa fa-shield"></i>WarAccademy</h2>
+			
+		</a></div>
+		
+
+		
+			
+		
+
+		<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+
+	
+
+
+
+<div id="navigation" class="header__blockItem  stickyTop inactiveSticky" style="">
+	<div class="sticky_wrapper" style="">
+		<div class="uix_navigationWrapper">
+		
+		<div class="pageWidth">
+		
+			<div class="pageContent defaultBorderRadius">
+				<nav>
+					<div class="navTabs">
+						
+
+							<ul class="publicTabs navLeft">
+
+							
+							<li id="logo_small" class="">
+								<a href="https://waraccademy.com/">
+								
+									<h2 class="uix_navigationLogoText"><i class="uix_icon fa fa-shield"></i>WarAccademy</h2>
+								
+								</a>
+							</li>
+							
+
+							
+
+
+
+
+
+	
+
+	
+		
+	
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<li class="navTab  navTab--panelTrigger navTab--navPanelTrigger PopupClosed" style="display: list-item;">
+		<a class="navLink js-leftPanelTrigger" href="https://forum.waraccademy.com/#">
+			<i class="uix_icon uix_icon-menu"></i><span class="trigger__phrase">Menu</span>
+		</a>
+	</li>
+
+
+
+							<!-- home -->
+							
+								
+								<li class="navTab home PopupClosed uix_leftMost"><a href="https://waraccademy.com/" class="navLink">Home</a></li>
+								
+							
+
+
+								<!-- extra tabs: home -->
+								
+
+
+								<!-- forums -->
+								
+									
+										<li class="navTab forums selected">
+	
+											<a href="https://forum.waraccademy.com/index.php" class="navLink">Forum</a>
+											<a href="https://forum.waraccademy.com/index.php" class="SplitCtrl" rel="Menu"></a>
+	
+											<div class="tabLinks forumsTabLinks">
+												
+													<div class="primaryContent menuHeader">
+														<h3>Forum</h3>
+														<div class="muted">Link Diretti</div>
+													</div>
+									
+													<ul class="secondaryContent blockLinksList">
+													
+														
+														<li><a href="https://forum.waraccademy.com/index.php?search/&amp;type=post">Cerca nei Forum</a></li>
+														
+														<li><a href="https://forum.waraccademy.com/index.php?find-new/posts" rel="nofollow">Recent Posts</a></li>
+													
+													</ul>
+									
+													
+												
+									
+											</div>
+										</li>
+								
+								
+
+								<!-- extra tabs: middle -->
+								
+								
+									
+										
+										<li class="navTab xfx_staff Popup PopupControl PopupClosed PopupContainerControl">
+	
+											<a href="https://forum.waraccademy.com/index.php?XenStaff/" class="navLink">Staff</a>
+											<a href="https://forum.waraccademy.com/index.php?XenStaff/" class="SplitCtrl" rel="Menu"></a>
+											
+											
+										</li>
+										
+									
+								
+								
+
+
+								<!-- members -->
+								
+									
+										<li class="navTab members Popup PopupControl PopupClosed PopupContainerControl uix_rightMost">
+	
+											<a href="https://forum.waraccademy.com/index.php?members/" class="navLink">Membri</a>
+											<a href="https://forum.waraccademy.com/index.php?members/" class="SplitCtrl" rel="Menu"></a>
+	
+											
+										</li>
+								
+
+								<!-- extra tabs: end -->
+								
+
+								<!-- responsive popup -->
+								<li class="navTab navigationHiddenTabs navTab--justIcon Popup PopupControl PopupClosed PopupContainerControl" style="display: none;">
+
+									<a rel="Menu" class="navLink NoPopupGadget uix_dropdownDesktopMenu"><i class="uix_icon uix_icon-navOverflow"></i><span class="uix_hide menuIcon">Menu</span></a>
+
+									
+								</li>
+
+								
+								<!-- no selection -->
+								
+								
+
+								
+
+							</ul>
+
+
+							
+
+
+								<ul class="navRight visitorTabs">
+
+								
+
+									
+
+									
+
+									
+										
+									
+
+									
+										
+
+	<li class="navTab login PopupClosed uix_leftMost">
+		
+			<a href="https://forum.waraccademy.com/index.php?login/" class="navLink uix_dropdownDesktopMenu OverlayTrigger" data-cacheoverlay="false">
+				
+				<strong class="loginText">Entra</strong>
+			</a>
+		
+
+		
+
+	</li>
+
+	
+	<li class="navTab register PopupClosed uix_rightMost">
+		<a href="https://forum.waraccademy.com/index.php?register/" class="navLink">
+			
+			<strong>Registrati</strong>
+		</a>
+	</li>
+	
+
+
+									
+
+									
+
+									
+
+
+
+
+
+	
+
+	
+		
+	
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+									
+
+								
+
+								</ul>
+
+							
+
+							
+
+
+						
+					</div>
+
+				<span class="helper"></span>
+
+				</nav>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+	
+</div>
+
+	
+	
+</header>
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+	
+	<div id="uix_welcomeBlock" class=""> 
+		<div class="pageWidth">
+		
+			
+
+<a href="https://forum.waraccademy.com/#" class="close"><i class="uix_icon uix_icon-close"></i></a>
+
+<div class="uix_welcomeBlock__content">
+
+	<h3 class="uix_welcomeBlock__header">Benvenuto nella nostra Community</h3>
+
+	<p class="uix_welcomeBlock__message">Registrati gratuitamente e inizia a scrivere nel nostro forum!</p>
+
+	<div class="uix_welcomeBlock__button"><a href="https://forum.waraccademy.com/index.php?register" class="signupButton"><span>Registrati</span></a></div>
+
+</div>
+		
+		</div>
+	</div>
+	
+
+<div id="content" class="forum_list">
+	
+	<div class="pageWidth">
+		<div class="pageContent defaultBorderRadius">
+	
+			<!-- main content area -->
+
+			
+
+			
+
+			
+			
+			<div class="breadBoxTop  withSearch">
+				
+				
+
+<nav>
+
+	
+	<ul class="uix_breadCrumb_toggleList">
+		
+			
+
+				
+				
+					
+				
+
+				
+					
+					
+				
+
+				<li class="js-sidebarToggle sidebarToggle toggleList_item">
+					<a href="https://forum.waraccademy.com/#" title="Toggle Sidebar" class="Tooltip">
+						<i class="js-sidebarToggleIcon uix_icon uix_icon-sidebarToggle uix_icon-collapseLeftSidebar uix_icon--fixedWidth"></i>
+						
+					</a>
+				</li>
+			
+			<li class="toggleList_item toggleList_item_search">
+
+<div id="searchBar" class="">
+	
+	<i id="QuickSearchPlaceholder" class="uix_icon uix_icon-search" title="Cerca"></i>
+
+	
+
+
+	<fieldset id="QuickSearch">
+		<form action="https://forum.waraccademy.com/index.php?search/search" method="post" class="formPopup">
+
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<i class="uix_icon uix_icon-search" onclick="$(&quot;#QuickSearch .primaryControls input&quot;).focus()"></i>
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Cerca..." results="0" title="Inserisci la tua Ricerca e premi il tasto " enter""="" id="QuickSearchQuery">
+				<!-- end block: primaryControls -->
+			</div>
+
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1" id="search_bar_title_only" class="AutoChecker" data-uncheck="#search_bar_thread"> Cerca solo tra i titoli</label></li>
+						</ul></dd>
+					</dl>
+
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Inserito dall'utente:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" autocomplete="off">
+							<p class="explain">Separa i nomi degli utenti con una virgola.</p>
+						</dd>
+					</dl>
+
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Più nuovo del:</label></dt>
+						<dd><input type="text" data-orig-type="date" name="date" value="" class="textCtrl date" id="searchBar_date"></dd>
+					</dl>
+
+					
+				</div>
+				<!-- end block: secondaryControls -->
+
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Cerca" class="button primary Tooltip" title="Trova!">
+						<a href="https://forum.waraccademy.com/index.php?search/" class="button moreOptions Tooltip" title="Ricerca Avanzata">Di Più...</a>
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip PopupControl" title="Ricerche Utili" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							
+						</div>
+					</dd>
+				</dl>
+
+			</div>
+
+			<input type="hidden" name="_xfToken" value="">
+		</form>
+	</fieldset>
+	
+
+</div></li>
+		
+	</ul>
+	
+
+	
+
+	<fieldset class="breadcrumb" style="">
+		<a href="https://forum.waraccademy.com/index.php?misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheoverlay="true" title="Apri Navigazione Veloce"><i class="uix_icon uix_icon-sitemap"></i><!--Salta a...--></a>
+
+		<div class="boardTitle"><strong>WarAccademy</strong></div>
+
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://waraccademy.com/" class="crumb" rel="up" itemprop="url"><span itemprop="title"><i class="uix_icon uix_icon-home" title="Home"></i></span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://forum.waraccademy.com/index.php" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forum</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+
+			
+		</span>
+	</fieldset>
+</nav>
+				
+					
+
+	
+
+	<div id="uix_searchMinimal">
+		<form action="https://forum.waraccademy.com/index.php?search/search" method="post">
+			<i id="uix_searchMinimalClose" class="uix_icon uix_icon-close" title="Chiudi"></i>
+			<i id="uix_searchMinimalOptions" class="uix_icon uix_icon-cog" title="Opzioni"></i>
+			<div id="uix_searchMinimalInput">
+				<input type="search" name="keywords" value="" placeholder="Cerca..." results="0">
+			</div>
+			<input type="hidden" name="_xfToken" value="">
+		</form>
+	</div>
+
+
+
+
+
+				
+			</div>
+			
+			
+
+			
+
+			
+
+			
+
+			
+				<div class="uix_contentFix">
+					<div class="mainContainer">
+
+			
+					<div class="mainContent withTransition" style="margin-left: 270px;">
+						<!--[if lt IE 8]>
+							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+						<![endif]-->
+
+						
+						
+						
+
+
+
+
+
+<div class="PanelScroller Notices" data-vertical="0" data-speed="400" data-interval="4000" style="display: block;">
+	<div class="scrollContainer">
+		<div class="PanelContainer">
+			<ol class="Panels" style="position: static;">
+				
+					<li class="panel Notice DismissParent notice_notice_cookies " data-notice="notice_cookies">
+	
+	<div class="baseHtml noticeContent">This site uses cookies. By continuing to use this site, you are agreeing to our use of cookies. <a href="https://forum.waraccademy.com/index.php?help/cookies">Learn More.</a></div>
+	
+	
+</li>
+				
+			</ol>
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+
+
+						
+						
+
+						
+
+						
+						
+							
+						
+						
+
+						
+
+						<!-- main template -->
+						
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	<ol class="nodeList section uix_nodeStyle_3 audentio_grid_running" id="forums" style="visibility: visible;">
+	
+		
+
+
+<li class="node forum level_1 groupNoChildren node_58 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg ">
+	<div class="categoryStrip categoryStrip--empty"></div>
+
+	<div class="nodeInfo forumNodeInfo Supporto Generale unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/supporto-generale.58/" data-description="#nodeDescription-58">Supporto Generale</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>3</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>3</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/shelterchat.17830/" class="avatar Av17830s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="ShelterChat"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50677/" title="non posso entrare">non posso entrare</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/shelterchat.17830/" class="username" dir="auto">ShelterChat</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50677/" title="non posso entrare"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637867608" data-diff="572" data-datestring="25 Novembre 2021" data-timestring="20:13" title="25 Novembre 2021 alle 20:13">9 minuti fa</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/supporto-generale.58/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node category level_1 node_1 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="amministrazione.1">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#amministrazione.1" data-description="#nodeDescription-1">Amministrazione</a></h3>
+			
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node forum level_2  node_2 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Regolamento unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/regolamento.2/" data-description="#nodeDescription-2">Regolamento</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>13</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>14</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="avatar Av45s" data-avatarhtml="true"><img src="./WarAccademy_files/45.jpg" width="48" height="48" alt="M3Manuel"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50233/" title="Regolamento Factions">Regolamento Factions</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="username" dir="auto">M3Manuel</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50233/" title="Regolamento Factions"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="6 Novembre 2021 alle 20:45">6 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/regolamento.2/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_3 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo FAQs e Comunicazioni unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/faqs-e-comunicazioni.3/" data-description="#nodeDescription-3">FAQs e Comunicazioni</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>6</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>75</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="avatar Av45s" data-avatarhtml="true"><img src="./WarAccademy_files/45.jpg" width="48" height="48" alt="M3Manuel"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/49129/" title="Come giocare alla nuova Pixelmon">Come giocare alla nuova Pixelmon</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="username" dir="auto">M3Manuel</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/49129/" title="Come giocare alla nuova Pixelmon"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="4 Settembre 2021 alle 18:10">4 Settembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/faqs-e-comunicazioni.3/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node category level_1 node_4 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_3 audentio_grid_row_3 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_3 audentio_grid_node_3 audentio_grid_row_odd audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="generale.4">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#generale.4" data-description="#nodeDescription-4">Generale</a></h3>
+			
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node forum level_2  node_6 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Presentati unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/presentati.6/" data-description="#nodeDescription-6">Presentati</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>185</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>1.304</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="avatar Av9659s" data-avatarhtml="true"><img src="./WarAccademy_files/9659.jpg" width="48" height="48" alt="emmegi"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50582/" title="Buon salve, mi presento.">Buon salve, mi presento.</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="username" dir="auto">emmegi</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50582/" title="Buon salve, mi presento."><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637605266" data-diff="262914" data-datestring="22 Novembre 2021" data-timestring="19:21" title="22 Novembre 2021 alle 19:21">Lunedì alle 19:21</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/presentati.6/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_9 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Guide unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/guide.9/" data-description="#nodeDescription-9">Guide</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>41</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>417</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="avatar Av12352s" data-avatarhtml="true"><img src="./WarAccademy_files/12352.jpg" width="48" height="48" alt="Emaoh"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50367/" title="non riesco a trovare nessun chunk libero come faccio?">non riesco a trovare nessun chunk libero come faccio?</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="username" dir="auto">Emaoh</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50367/" title="non riesco a trovare nessun chunk libero come faccio?"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="13 Novembre 2021 alle 18:05">13 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/guide.9/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_31 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_3 audentio_grid_node_3 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg ">
+	
+
+	<div class="nodeInfo forumNodeInfo Area YouTubers unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/area-youtubers.31/" data-description="#nodeDescription-31">Area YouTubers</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>73</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>417</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/sc4rl.5252/" class="avatar Av5252s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="sc4rL"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50385/" title="Candidatura YT">Candidatura YT</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/sc4rl.5252/" class="username" dir="auto">sc4rL</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50385/" title="Candidatura YT"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="13 Novembre 2021 alle 22:08">13 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/area-youtubers.31/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node category level_1 node_54 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_4 audentio_grid_row_4 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_4 audentio_grid_node_4 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="metropolis.54">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#metropolis.54" data-description="#nodeDescription-54">Metropolis</a></h3>
+			
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node forum level_2  node_56 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Richieste lavoro con VIP unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/richieste-lavoro-con-vip.56/" data-description="#nodeDescription-56">Richieste lavoro con VIP</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>1</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>1</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="avatar Av8873s" data-avatarhtml="true"><img src="./WarAccademy_files/8873.jpg" width="48" height="48" alt="Ange_5e"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50604/" title="Modulo Richiesta Lavoro con Vip">Modulo Richiesta Lavoro con Vip</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="username" dir="auto">Ange_5e</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50604/" title="Modulo Richiesta Lavoro con Vip"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637682818" data-diff="185362" data-datestring="23 Novembre 2021" data-timestring="16:53" title="23 Novembre 2021 alle 16:53">Martedì alle 16:53</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/richieste-lavoro-con-vip.56/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_34 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Proposte per Metropolis unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/proposte-per-metropolis.34/" data-description="#nodeDescription-34">Proposte per Metropolis</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>354</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>1.134</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/namiko_.5646/" class="avatar Av5646s" data-avatarhtml="true"><img src="./WarAccademy_files/5646.jpg" width="48" height="48" alt="Namiko_"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50619/" title="Proposta nuovo lavoro pt2">Proposta nuovo lavoro pt2</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/namiko_.5646/" class="username" dir="auto">Namiko_</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50619/" title="Proposta nuovo lavoro pt2"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637700448" data-diff="167732" data-datestring="23 Novembre 2021" data-timestring="21:47" title="23 Novembre 2021 alle 21:47">Martedì alle 21:47</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/proposte-per-metropolis.34/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_57 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_3 audentio_grid_node_3 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Valutazione Azioni RP unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/valutazione-azioni-rp.57/" data-description="#nodeDescription-57">Valutazione Azioni RP</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>1</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>1</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="avatar Av8873s" data-avatarhtml="true"><img src="./WarAccademy_files/8873.jpg" width="48" height="48" alt="Ange_5e"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50609/" title="Modulo Valutazione Azioni">Modulo Valutazione Azioni</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="username" dir="auto">Ange_5e</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50609/" title="Modulo Valutazione Azioni"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637687864" data-diff="180316" data-datestring="23 Novembre 2021" data-timestring="18:17" title="23 Novembre 2021 alle 18:17">Martedì alle 18:17</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/valutazione-azioni-rp.57/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_46 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_4 audentio_grid_node_4 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Segnalazioni FailRP unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/segnalazioni-failrp.46/" data-description="#nodeDescription-46">Segnalazioni FailRP</a>
+				
+			</h3>
+
+			
+				<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-46"><p>Manda qui le tue segnalazioni per problemi di RP sul metropolis</p></blockquote>
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>113</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>280</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="avatar Av8873s" data-avatarhtml="true"><img src="./WarAccademy_files/8873.jpg" width="48" height="48" alt="Ange_5e"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50446/" title="Sayu_u">Sayu_u</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/ange_5e.8873/" class="username" dir="auto">Ange_5e</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50446/" title="Sayu_u"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="17 Novembre 2021 alle 19:25">17 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/segnalazioni-failrp.46/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node category level_1 node_15 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_5 audentio_grid_row_5 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_5 audentio_grid_node_5 audentio_grid_row_odd audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="candidature.15">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#candidature.15" data-description="#nodeDescription-15">Candidature</a></h3>
+			
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node forum level_2  node_16 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg ">
+	
+
+	<div class="nodeInfo forumNodeInfo Candidature Youtubers unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/candidature-youtubers.16/" data-description="#nodeDescription-16">Candidature Youtubers</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>173</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>336</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/lynzx200.4807/" class="avatar Av4807s" data-avatarhtml="true"><img src="./WarAccademy_files/4807.jpg" width="48" height="48" alt="Lynzx200"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/34422/" title="Candidatura Youtuber">Candidatura Youtuber</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/lynzx200.4807/" class="username" dir="auto">Lynzx200</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/34422/" title="Candidatura Youtuber"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="20 Settembre 2020 alle 10:11">20 Settembre 2020</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/candidature-youtubers.16/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node category level_1 node_10 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_6 audentio_grid_row_6 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_6 audentio_grid_node_6 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="supporto-e-richieste.10">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#supporto-e-richieste.10" data-description="#nodeDescription-10">Supporto e Richieste</a></h3>
+			
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node category_forum level_2 node_42 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+
+	<div class="nodeInfo categoryForumNodeInfo  unread">
+
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?categories/richieste-di-sban.42/" data-description="#nodeDescription-42">Richieste di Sban</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>4.573</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>16.012</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+			<ol class="subForumList">
+			
+				<li class="node forum level-n node_43">
+	<div class="unread">
+		<h4 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/sban-su-teamspeak.43/" class="menuRow">
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		Sban su Teamspeak</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_13">
+	<div class="unread">
+		<h4 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/sban-su-minecraft.13/" class="menuRow">
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		Sban su Minecraft</a></h4>
+	</div>
+	
+</li>
+			
+			</ol>
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="avatar Av12352s" data-avatarhtml="true"><img src="./WarAccademy_files/12352.jpg" width="48" height="48" alt="Emaoh"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50566/" title="unban (fatto bene ora)">unban (fatto bene ora)</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="username" dir="auto">Emaoh</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50566/" title="unban (fatto bene ora)"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637592017" data-diff="276163" data-datestring="22 Novembre 2021" data-timestring="15:40" title="22 Novembre 2021 alle 15:40">Lunedì alle 15:40</abbr></a>
+					
+				</span>
+			
+		</div>
+
+	</div>
+
+</li>
+
+
+<li class="node forum level_2  node_39 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Problemi con Acquisti unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/problemi-con-acquisti.39/" data-description="#nodeDescription-39">Problemi con Acquisti</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>107</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>309</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="avatar Av9659s" data-avatarhtml="true"><img src="./WarAccademy_files/9659.jpg" width="48" height="48" alt="emmegi"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50622/" title="Problemi vip bedwars">Problemi vip bedwars</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="username" dir="auto">emmegi</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50622/" title="Problemi vip bedwars"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637768983" data-diff="99197" data-datestring="24 Novembre 2021" data-timestring="16:49" title="24 Novembre 2021 alle 16:49">Ieri alle 16:49</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/problemi-con-acquisti.39/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_11 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_3 audentio_grid_node_3 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Richiesta di Aiuto unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-aiuto.11/" data-description="#nodeDescription-11">Richiesta di Aiuto</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>2.002</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>6.501</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/carbonio_.12848/" class="avatar Av12848s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="Carbonio_"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50675/" title="Perdita inventario dopo manutenzione del 24/11/2021">Perdita inventario dopo manutenzione del 24/11/2021</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/carbonio_.12848/" class="username" dir="auto">Carbonio_</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50675/" title="Perdita inventario dopo manutenzione del 24/11/2021"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637856968" data-diff="11212" data-datestring="25 Novembre 2021" data-timestring="17:16" title="25 Novembre 2021 alle 17:16">Oggi alle 17:16</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-aiuto.11/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_12 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_4 audentio_grid_node_4 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Supporto Forum unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/supporto-forum.12/" data-description="#nodeDescription-12">Supporto Forum</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>264</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>824</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/giocole.4513/" class="avatar Av4513s" data-avatarhtml="true"><img src="./WarAccademy_files/4513.jpg" width="48" height="48" alt="GioCole"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50473/" title="Sban dal canale pubblico di metropolis">Sban dal canale pubblico di metropolis</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/giocole.4513/" class="username" dir="auto">GioCole</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50473/" title="Sban dal canale pubblico di metropolis"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637280105" data-diff="588075" data-datestring="19 Novembre 2021" data-timestring="01:01" title="19 Novembre 2021 alle 01:01">Venerdì alle 01:01</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/supporto-forum.12/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_14 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_2 audentio_grid_rowSublayout_3 audentio_grid_row_3 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_5 audentio_grid_node_5 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Richiesta di Cambio Nickname unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-cambio-nickname.14/" data-description="#nodeDescription-14">Richiesta di Cambio Nickname</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>1.267</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>3.138</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="avatar Av12352s" data-avatarhtml="true"><img src="./WarAccademy_files/12352.jpg" width="48" height="48" alt="Emaoh"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50498/" title="Non ho ancora cambiato acc">Non ho ancora cambiato acc</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="username" dir="auto">Emaoh</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50498/" title="Non ho ancora cambiato acc"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637496393" data-diff="371787" data-datestring="21 Novembre 2021" data-timestring="13:06" title="21 Novembre 2021 alle 13:06">Domenica alle 13:06</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-cambio-nickname.14/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_22 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_2 audentio_grid_rowSublayout_3 audentio_grid_row_3 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_6 audentio_grid_node_6 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Segnala Giocatore unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/segnala-giocatore.22/" data-description="#nodeDescription-22">Segnala Giocatore</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>1.507</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>4.515</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/zkreepxh.17789/" class="avatar Av17789s" data-avatarhtml="true"><img src="./WarAccademy_files/17789.jpg" width="48" height="48" alt="zKreepxh"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50676/" title="rapina contro regolamento">rapina contro regolamento</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/zkreepxh.17789/" class="username" dir="auto">zKreepxh</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50676/" title="rapina contro regolamento"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637865298" data-diff="2882" data-datestring="25 Novembre 2021" data-timestring="19:34" title="25 Novembre 2021 alle 19:34">48 minuti fa</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/segnala-giocatore.22/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node link level_1 groupNoChildren node_45 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_7 audentio_grid_row_7 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_7 audentio_grid_node_7 audentio_grid_row_odd audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg ">
+
+	<div class="categoryStrip categoryStrip--empty"></div>
+
+	<div class="nodeInfo linkNodeInfo ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?link-forums/la-sezione-sotto-non-%C3%A8-per-risolvere-problemi.45/" data-description-x="#nodeDescription-45">La sezione sotto non è per risolvere problemi!</a></h3>
+			
+		</div>
+	</div>
+
+	
+</li>
+
+
+<li class="node category level_1 node_20 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_8 audentio_grid_row_8 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_8 audentio_grid_node_8 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg " id="proposte-modalita-di-gioco-no-supporto.20">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip ">
+		<span class="js-collapseNodeTrigger categoryStrip__collapseToggle" title="Toggle Visibility"><i class="uix_icon js-collapseIcon uix_icon-collapse uix_icon--fixedWidth"></i></span>
+		
+		
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+		
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php#proposte-modalita-di-gioco-no-supporto.20" data-description="#nodeDescription-20">Proposte Modalità di Gioco (No Supporto)</a></h3>
+			<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-20"><p>Ricordo che questa sezione esiste per fare proposte sulle singole modalità, non per segnalare problemiche. Per quello esiste la sezione "Supporto e Richieste".</p></blockquote>
+		</div>
+	</div>
+
+	
+		<ol class="nodeList">
+			
+
+
+<li class="node forum level_2  node_36 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_1 audentio_grid_node_1 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Proposte per nuove Modalità unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/proposte-per-nuove-modalit%C3%A0.36/" data-description="#nodeDescription-36">Proposte per nuove Modalità</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>52</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>168</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/_fox1208_.14152/" class="avatar Av14152s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="_Fox1208_"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/48699/" title="negozio di abbigliamento o di elettronica">negozio di abbigliamento o di elettronica</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/_fox1208_.14152/" class="username" dir="auto">_Fox1208_</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/48699/" title="negozio di abbigliamento o di elettronica"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="17 Agosto 2021 alle 15:04">17 Agosto 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/proposte-per-nuove-modalit%C3%A0.36/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_24 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_1 audentio_grid_row_1 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_2 audentio_grid_node_2 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo BedWars unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/bedwars.24/" data-description="#nodeDescription-24">BedWars</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>91</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>338</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/4ndre.15559/" class="avatar Av15559s" data-avatarhtml="true"><img src="./WarAccademy_files/15559.jpg" width="48" height="48" alt="4ndre"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/47036/" title="Sistemate le bedwars ^^">Sistemate le bedwars ^^</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/4ndre.15559/" class="username" dir="auto">4ndre</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/47036/" title="Sistemate le bedwars ^^"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="21 Giugno 2021 alle 17:07">21 Giugno 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/bedwars.24/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_30 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_3 audentio_grid_node_3 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo SkyBlock unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/skyblock.30/" data-description="#nodeDescription-30">SkyBlock</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>55</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>185</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/peppoooooo.17061/" class="avatar Av17061s" data-avatarhtml="true"><img src="./WarAccademy_files/17061.jpg" width="48" height="48" alt="Peppoooooo"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/49321/" title="Skyblock Offline?">Skyblock Offline?</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/peppoooooo.17061/" class="username" dir="auto">Peppoooooo</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/49321/" title="Skyblock Offline?"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="9 Settembre 2021 alle 09:19">9 Settembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/skyblock.30/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_28 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_2 audentio_grid_row_2 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_4 audentio_grid_node_4 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Creative unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/creative.28/" data-description="#nodeDescription-28">Creative</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>16</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>130</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/fiokoly_yt.13573/" class="avatar Av13573s" data-avatarhtml="true"><img src="./WarAccademy_files/13573.jpg" width="48" height="48" alt="Fiokoly_YT"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/49930/" title="bug exploit in creative">bug exploit in creative</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/fiokoly_yt.13573/" class="username" dir="auto">Fiokoly_YT</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/49930/" title="bug exploit in creative"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="20 Ottobre 2021 alle 12:23">20 Ottobre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/creative.28/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_40 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_3 audentio_grid_row_3 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_5 audentio_grid_node_5 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo OPPrison unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/opprison.40/" data-description="#nodeDescription-40">OPPrison</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>14</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>27</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/sc4rl.5252/" class="avatar Av5252s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="sc4rL"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50411/" title="Segnalazione Bug OpPrison">Segnalazione Bug OpPrison</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/sc4rl.5252/" class="username" dir="auto">sc4rL</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50411/" title="Segnalazione Bug OpPrison"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="15 Novembre 2021 alle 13:55">15 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/opprison.40/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_35 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_3 audentio_grid_row_3 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_6 audentio_grid_node_6 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Pixelmon unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/pixelmon.35/" data-description="#nodeDescription-35">Pixelmon</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>9</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>21</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="avatar Av12352s" data-avatarhtml="true"><img src="./WarAccademy_files/12352.jpg" width="48" height="48" alt="Emaoh"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50368/" title="reset pixelmon">reset pixelmon</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emaoh.12352/" class="username" dir="auto">Emaoh</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50368/" title="reset pixelmon"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="13 Novembre 2021 alle 18:06">13 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/pixelmon.35/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_21 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_4 audentio_grid_row_4 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_7 audentio_grid_node_7 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Factions unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/factions.21/" data-description="#nodeDescription-21">Factions</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>31</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>91</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="avatar Av45s" data-avatarhtml="true"><img src="./WarAccademy_files/45.jpg" width="48" height="48" alt="M3Manuel"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50232/" title="REGOLAMENTO FAZIONI SEASON">REGOLAMENTO FAZIONI SEASON</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/m3manuel.45/" class="username" dir="auto">M3Manuel</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50232/" title="REGOLAMENTO FAZIONI SEASON"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="6 Novembre 2021 alle 20:34">6 Novembre 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/factions.21/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_41 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_4 audentio_grid_row_4 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_8 audentio_grid_node_8 audentio_grid_row_even audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo KitPvP unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/kitpvp.41/" data-description="#nodeDescription-41">KitPvP</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>1</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>2</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/erkss.212/" class="avatar Av212s" data-avatarhtml="true"><img src="./WarAccademy_files/212.jpg" width="48" height="48" alt="Erkss"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/29886/" title="Segnalazione -Pocket-">Segnalazione -Pocket-</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/erkss.212/" class="username" dir="auto">Erkss</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/29886/" title="Segnalazione -Pocket-"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="22 Aprile 2020 alle 16:53">22 Aprile 2020</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/kitpvp.41/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_27 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_5 audentio_grid_row_5 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_9 audentio_grid_node_9 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Practice unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/practice.27/" data-description="#nodeDescription-27">Practice</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>49</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>242</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/qsh_.15298/" class="avatar Av15298s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_s.png" width="48" height="48" alt="qsh_"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/44575/" title="problema con il vip (rank Immortal)">problema con il vip (rank Immortal)</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/qsh_.15298/" class="username" dir="auto">qsh_</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/44575/" title="problema con il vip (rank Immortal)"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="3 Maggio 2021 alle 22:45">3 Maggio 2021</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/practice.27/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_25 audentio_grid audentio_grid_active audentio_grid_right audentio_grid_column_2 audentio_grid_columnMax_1 audentio_grid_rowSublayout_5 audentio_grid_row_5 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_10 audentio_grid_node_10 audentio_grid_row_odd audentio_grid_lg audentio_grid_xl below-lg below-xl above-xs above-sm above-md node--md " style="width: 50%;">
+	
+
+	<div class="nodeInfo forumNodeInfo Vanilla unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/vanilla.25/" data-description="#nodeDescription-25">Vanilla</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>37</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>131</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="avatar Av9659s" data-avatarhtml="true"><img src="./WarAccademy_files/9659.jpg" width="48" height="48" alt="emmegi"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/50628/" title="richiesta sban">richiesta sban</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/emmegi.9659/" class="username" dir="auto">emmegi</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/50628/" title="richiesta sban"><abbr class="DateTime muted lastThreadDate" data-latest="Ultimo: " data-time="1637776217" data-diff="91963" data-datestring="24 Novembre 2021" data-timestring="18:50" title="24 Novembre 2021 alle 18:50">Ieri alle 18:50</abbr></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/vanilla.25/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+
+
+<li class="node forum level_2  node_38 audentio_grid audentio_grid_active audentio_grid_left audentio_grid_right audentio_grid_column_1 audentio_grid_columnMax_1 audentio_grid_rowSublayout_6 audentio_grid_row_6 audentio_grid_subLayout_1 audentio_grid_numSubLayouts_1 audentio_grid_nodeSublayout_11 audentio_grid_node_11 audentio_grid_row_even audentio_grid_xl below-xl above-xs above-sm above-md above-lg node--lg ">
+	
+
+	<div class="nodeInfo forumNodeInfo FazioniCS unread ">
+
+		
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	<span class="nodeIcon" title="Messaggi non letti"></span>
+
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="https://forum.waraccademy.com/index.php?forums/fazionics.38/" data-description="#nodeDescription-38">FazioniCS</a>
+				
+			</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt><i class="uix_icon uix_icon-statsDiscussions"></i></dt> <dd>5</dd></dl>
+				<dl><dt><i class="uix_icon uix_icon-statsMessages"></i></dt> <dd>13</dd></dl>
+				
+			</div>
+
+			
+		</div>
+
+		
+
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				
+					<a href="https://forum.waraccademy.com/index.php?members/nickgold.10702/" class="avatar Av10702s" data-avatarhtml="true"><img src="./WarAccademy_files/10702.jpg" width="48" height="48" alt="NickGold"></a>
+				
+				<span class="lastThreadTitle"><span>Ultimo:</span> <a href="https://forum.waraccademy.com/index.php?posts/35725/" title="NPC armeria">NPC armeria</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="https://forum.waraccademy.com/index.php?members/nickgold.10702/" class="username" dir="auto">NickGold</a>,</span>
+					
+						<a href="https://forum.waraccademy.com/index.php?posts/35725/" title="NPC armeria"><span class="DateTime muted lastThreadDate" data-latest="Ultimo: " title="11 Novembre 2020 alle 15:15">11 Novembre 2020</span></a>
+					
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="https://forum.waraccademy.com/index.php?forums/fazionics.38/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+
+	</div>
+
+	
+
+</li>
+			
+			
+			<div class="uix_nodeGridCollapseWrap">
+				<div class="uix_nodeGridCollapseInner"></div>
+			</div>
+			
+			
+			
+		</ol>
+	
+	<div class="clear"></div>
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+	
+	</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+
+
+
+						
+					</div>
+			
+
+					</div>
+
+					<!-- sidebar -->
+					<aside class="uix_mainSidebar">
+						<div class="inner_wrapper">
+							<div class="sidebar">
+								
+								
+								
+
+<div class="section loginButton">
+	<div class="secondaryContent">
+		<label id="SignupButton"><a href="https://forum.waraccademy.com/index.php?login/" class="inner OverlayTrigger" data-cacheoverlay="false">Registrati o Entra!</a></label>
+	</div>
+</div>
+
+
+
+
+
+
+								
+	
+
+	
+		
+			
+
+<!-- block: sidebar_online_staff -->
+
+<!-- end block: sidebar_online_staff -->
+
+<!-- block: sidebar_online_users -->
+<div class="section membersOnline userList">		
+	<div class="secondaryContent">
+		<h3><a href="https://forum.waraccademy.com/index.php?online/" title="Vedi tutti gli Utenti Collegati">Utenti Registrati Collegati</a></h3>
+		
+		
+		
+			
+			
+			<ol class="listInline">
+				
+					
+						<li>
+						
+							<a href="https://forum.waraccademy.com/index.php?members/zackaria.17446/" dir="auto" class="username">Zackaria</a>,
+						
+						</li>
+					
+				
+					
+						<li>
+						
+							<a href="https://forum.waraccademy.com/index.php?members/neuronik.17831/" dir="auto" class="username">neuronik</a>,
+						
+						</li>
+					
+				
+					
+						<li>
+						
+							<a href="https://forum.waraccademy.com/index.php?members/shelterchat.17830/" dir="auto" class="username">ShelterChat</a>
+						
+						</li>
+					
+				
+				
+			</ol>
+		
+		
+		<div class="footnote">
+			Total: 11 (members: 3, guests: 5, robots: 3)
+		</div>
+	</div>
+</div>
+<!-- end block: sidebar_online_users -->
+		
+
+		
+			<div class="section threadList">
+				<div class="secondaryContent">
+					<h3><a href="https://forum.waraccademy.com/index.php?find-new/posts">Nuovi Post</a></h3>
+					
+
+<ul>
+
+	<li id="thread-17459" class="threadListItem" data-author="ShelterChat">
+
+		<a href="https://forum.waraccademy.com/index.php?members/shelterchat.17830/" class="avatar Av17830s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="ShelterChat"></a>
+		
+		<div class="messageInfo">
+			
+			<div class="messageContent">
+				<div class="title">
+				
+					<a href="https://forum.waraccademy.com/index.php?posts/50677/">non posso entrare</a>
+				
+				</div>
+			</div>
+
+			<div class="additionalRow muted">
+				Ultimo: ShelterChat, <abbr class="DateTime" data-time="1637867608" data-diff="572" data-datestring="25 Novembre 2021" data-timestring="20:13" title="25 Novembre 2021 alle 20:13">9 minuti fa</abbr>
+			</div>
+			
+			<div class="additionalRow muted">
+				<a href="https://forum.waraccademy.com/index.php?forums/supporto-generale.58/" class="forumLink">Supporto Generale</a>
+			</div>
+		</div>
+	</li>
+
+	<li id="thread-17354" class="threadListItem" data-author="zKreepxh">
+
+		<a href="https://forum.waraccademy.com/index.php?members/zkreepxh.17789/" class="avatar Av17789s" data-avatarhtml="true"><img src="./WarAccademy_files/17789.jpg" width="48" height="48" alt="zKreepxh"></a>
+		
+		<div class="messageInfo">
+			
+			<div class="messageContent">
+				<div class="title">
+				
+					<a href="https://forum.waraccademy.com/index.php?posts/50676/"><span class="prefix prefixYellow">IN VALUTAZIONE</span> rapina contro regolamento</a>
+				
+				</div>
+			</div>
+
+			<div class="additionalRow muted">
+				Ultimo: zKreepxh, <abbr class="DateTime" data-time="1637865298" data-diff="2882" data-datestring="25 Novembre 2021" data-timestring="19:34" title="25 Novembre 2021 alle 19:34">48 minuti fa</abbr>
+			</div>
+			
+			<div class="additionalRow muted">
+				<a href="https://forum.waraccademy.com/index.php?forums/segnala-giocatore.22/" class="forumLink">Segnala Giocatore</a>
+			</div>
+		</div>
+	</li>
+
+	<li id="thread-17458" class="threadListItem" data-author="Carbonio_">
+
+		<a href="https://forum.waraccademy.com/index.php?members/carbonio_.12848/" class="avatar Av12848s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="Carbonio_"></a>
+		
+		<div class="messageInfo">
+			
+			<div class="messageContent">
+				<div class="title">
+				
+					<a href="https://forum.waraccademy.com/index.php?posts/50675/">Perdita inventario dopo manutenzione del 24/11/2021</a>
+				
+				</div>
+			</div>
+
+			<div class="additionalRow muted">
+				Ultimo: Carbonio_, <abbr class="DateTime" data-time="1637856968" data-diff="11212" data-datestring="25 Novembre 2021" data-timestring="17:16" title="25 Novembre 2021 alle 17:16">Oggi alle 17:16</abbr>
+			</div>
+			
+			<div class="additionalRow muted">
+				<a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-aiuto.11/" class="forumLink">Richiesta di Aiuto</a>
+			</div>
+		</div>
+	</li>
+
+	<li id="thread-17457" class="threadListItem" data-author="Carbonio_">
+
+		<a href="https://forum.waraccademy.com/index.php?members/carbonio_.12848/" class="avatar Av12848s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="Carbonio_"></a>
+		
+		<div class="messageInfo">
+			
+			<div class="messageContent">
+				<div class="title">
+				
+					<a href="https://forum.waraccademy.com/index.php?posts/50674/">Perdita dell'inventario dopo manutenzione del 24/11/2021</a>
+				
+				</div>
+			</div>
+
+			<div class="additionalRow muted">
+				Ultimo: Carbonio_, <abbr class="DateTime" data-time="1637856829" data-diff="11351" data-datestring="25 Novembre 2021" data-timestring="17:13" title="25 Novembre 2021 alle 17:13">Oggi alle 17:13</abbr>
+			</div>
+			
+			<div class="additionalRow muted">
+				<a href="https://forum.waraccademy.com/index.php?forums/supporto-generale.58/" class="forumLink">Supporto Generale</a>
+			</div>
+		</div>
+	</li>
+
+	<li id="thread-17456" class="threadListItem" data-author="LuigiGaming">
+
+		<a href="https://forum.waraccademy.com/index.php?members/luigigaming.6891/" class="avatar Av6891s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_s.png" width="48" height="48" alt="LuigiGaming"></a>
+		
+		<div class="messageInfo">
+			
+			<div class="messageContent">
+				<div class="title">
+				
+					<a href="https://forum.waraccademy.com/index.php?posts/50673/">Bug nel comando /lavoro su Metropolis</a>
+				
+				</div>
+			</div>
+
+			<div class="additionalRow muted">
+				Ultimo: LuigiGaming, <abbr class="DateTime" data-time="1637856487" data-diff="11693" data-datestring="25 Novembre 2021" data-timestring="17:08" title="25 Novembre 2021 alle 17:08">Oggi alle 17:08</abbr>
+			</div>
+			
+			<div class="additionalRow muted">
+				<a href="https://forum.waraccademy.com/index.php?forums/richiesta-di-aiuto.11/" class="forumLink">Richiesta di Aiuto</a>
+			</div>
+		</div>
+	</li>
+
+</ul>
+				</div>
+			</div>
+		
+
+		
+			<div class="section profilePostList">
+				<div class="secondaryContent">
+					<h3><a href="https://forum.waraccademy.com/index.php?find-new/profile-posts">New Profile Posts</a></h3>
+					
+<ul id="ProfilePostList" class="">
+
+	
+
+
+<li id="profile-post-4520" class="profilePostListItem   " data-author="FelpettaCandy">
+
+	<a href="https://forum.waraccademy.com/index.php?members/felpettacandy.17826/" class="avatar Av17826s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_s.png" width="48" height="48" alt="FelpettaCandy"></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="https://forum.waraccademy.com/index.php?members/felpettacandy.17826/" class="username" dir="auto">FelpettaCandy</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Non Rompere i coglioni</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4520/" title="Permalink" class="item muted"><abbr class="DateTime" data-time="1637782082" data-diff="86098" data-datestring="24 Novembre 2021" data-timestring="20:28" title="24 Novembre 2021 alle 20:28">Ieri alle 20:28</abbr></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4520/" class="item Tooltip OverlayTrigger" title="Interagisci" data-tipclass="flipped" data-offsetx="7" data-offsety="-7">•••</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-4519" class="profilePostListItem   " data-author="Rebelxluson5">
+
+	<a href="https://forum.waraccademy.com/index.php?members/rebelxluson5.17825/" class="avatar Av17825s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="Rebelxluson5"></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="https://forum.waraccademy.com/index.php?members/rebelxluson5.17825/" class="username" dir="auto">Rebelxluson5</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Raga quanto dura ancora la manutenzione di war accademy?</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4519/" title="Permalink" class="item muted"><abbr class="DateTime" data-time="1637759399" data-diff="108781" data-datestring="24 Novembre 2021" data-timestring="14:09" title="24 Novembre 2021 alle 14:09">Ieri alle 14:09</abbr></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4519/" class="item Tooltip OverlayTrigger" title="Interagisci" data-tipclass="flipped" data-offsetx="7" data-offsety="-7">•••</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-4518" class="profilePostListItem   " data-author="BlanchCrypN">
+
+	<a href="https://forum.waraccademy.com/index.php?members/blanchcrypn.17685/" class="avatar Av17685s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="BlanchCrypN"></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="https://forum.waraccademy.com/index.php?members/blanchcrypn.17685/" class="username" dir="auto">BlanchCrypN</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Ban per doppioclick, non sapendo fosse permesso. Ho subito ammesso le colpe, ban 21g chiedo una diminuzione dei tempi di ban. 1° ban</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4518/" title="Permalink" class="item muted"><abbr class="DateTime" data-time="1637606932" data-diff="261248" data-datestring="22 Novembre 2021" data-timestring="19:48" title="22 Novembre 2021 alle 19:48">Lunedì alle 19:48</abbr></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4518/" class="item Tooltip OverlayTrigger" title="Interagisci" data-tipclass="flipped" data-offsetx="7" data-offsety="-7">•••</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-4516" class="profilePostListItem   " data-author="Zackaria">
+
+	<a href="https://forum.waraccademy.com/index.php?members/zackaria.17446/" class="avatar Av17446s" data-avatarhtml="true"><img src="./WarAccademy_files/17446.jpg" width="48" height="48" alt="Zackaria"></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="https://forum.waraccademy.com/index.php?members/zackaria.17446/" class="username" dir="auto"><span class="style19">Zackaria</span></a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">La vita e una sola Divertitevi con le ragazze  più che potete!</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4516/" title="Permalink" class="item muted"><abbr class="DateTime" data-time="1637495621" data-diff="372559" data-datestring="21 Novembre 2021" data-timestring="12:53" title="21 Novembre 2021 alle 12:53">Domenica alle 12:53</abbr></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4516/" class="item Tooltip OverlayTrigger" title="Interagisci" data-tipclass="flipped" data-offsetx="7" data-offsety="-7">•••</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-4515" class="profilePostListItem   " data-author="ivanovci1">
+
+	<a href="https://forum.waraccademy.com/index.php?members/ivanovci1.17394/" class="avatar Av17394s" data-avatarhtml="true"><img src="./WarAccademy_files/avatar_male_s.png" width="48" height="48" alt="ivanovci1"></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="https://forum.waraccademy.com/index.php?members/ivanovci1.17394/" class="username" dir="auto">ivanovci1</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">ma se io compro unban mi vengono tolti tutti i ban dalle modalita e dal server vero?</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4515/" title="Permalink" class="item muted"><span class="DateTime" title="18 Novembre 2021 alle 08:15">18 Novembre 2021</span></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="https://forum.waraccademy.com/index.php?profile-posts/4515/" class="item Tooltip OverlayTrigger" title="Interagisci" data-tipclass="flipped" data-offsetx="7" data-offsety="-7">•••</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+</ul>
+				</div>
+			</div>
+		
+
+		<!-- block: forum_stats -->
+		<div class="section">
+			<div class="secondaryContent statsList" id="boardStats">
+				<h3>Statistiche del Forum</h3>
+				<div class="pairsJustified">
+					<dl class="discussionCount"><dt>Discussioni:</dt>
+						<dd>15.157</dd></dl>
+					<dl class="messageCount"><dt>Messaggi:</dt>
+						<dd>44.968</dd></dl>
+					<dl class="memberCount"><dt>Utenti Registrati:</dt>
+						<dd>13.162</dd></dl>
+					<dl><dt>Ultimo Iscritto:</dt>
+						<dd><a href="https://forum.waraccademy.com/index.php?members/shelterchat.17830/" class="username" dir="auto">ShelterChat</a></dd></dl>
+					<!-- slot: forum_stats_extra -->
+				</div>
+			</div>
+		</div>
+		<!-- end block: forum_stats -->
+
+			
+	
+	<div class="section infoBlock sharePage">
+		<div class="secondaryContent">
+			<h3>Condividi questa Pagina</h3>
+			
+				
+				
+					<div class="tweet shareControl">
+						<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./WarAccademy_files/tweet_button.a53eecb4584348a2ad32ec2ae21f6eae.it.html" style="position: static; visibility: visible; width: 1px; height: 1px;" data-url="https://forum.waraccademy.com/index.php"></iframe>
+					</div>
+						
+				
+					<div class="facebookLike shareControl">
+						
+						<div class="fb-like fb_iframe_widget" data-href="https://forum.waraccademy.com/index.php" data-layout="button_count" data-action="recommend" data-font="trebuchet ms" data-colorscheme="light" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=recommend&amp;app_id=&amp;color_scheme=light&amp;container_width=0&amp;font=trebuchet%20ms&amp;href=https%3A%2F%2Fforum.waraccademy.com%2Findex.php&amp;layout=button_count&amp;locale=it_IT&amp;sdk=joey"><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden;"><iframe name="f89180e50e2ca" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./WarAccademy_files/like.html" style="border: none; visibility: visible; width: 0px; height: 0px;"></iframe></span></div>
+					</div>
+				
+					
+						
+			
+		</div>
+	</div>
+
+
+	
+
+								
+								
+							</div>
+						</div>
+					</aside>
+				</div>
+			
+
+			
+			
+				<div class="breadBoxBottom">
+
+<nav>
+
+	
+	<ul class="uix_breadCrumb_toggleList">
+		
+			
+
+				
+				
+					
+				
+
+				
+					
+					
+				
+
+				<li class="js-sidebarToggle sidebarToggle toggleList_item">
+					<a href="https://forum.waraccademy.com/#" title="Toggle Sidebar" class="Tooltip">
+						<i class="js-sidebarToggleIcon uix_icon uix_icon-sidebarToggle uix_icon-collapseLeftSidebar uix_icon--fixedWidth"></i>
+						
+					</a>
+				</li>
+			
+			<li class="toggleList_item toggleList_item_search">
+
+<div id="searchBar" class="">
+	
+	<i id="QuickSearchPlaceholder" class="uix_icon uix_icon-search" title="Cerca"></i>
+
+	
+
+
+	<fieldset id="QuickSearch">
+		<form action="https://forum.waraccademy.com/index.php?search/search" method="post" class="formPopup">
+
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<i class="uix_icon uix_icon-search" onclick="$(&quot;#QuickSearch .primaryControls input&quot;).focus()"></i>
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Cerca..." results="0" title="Inserisci la tua Ricerca e premi il tasto " enter""="" id="QuickSearchQuery">
+				<!-- end block: primaryControls -->
+			</div>
+
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1" id="search_bar_title_only" class="AutoChecker" data-uncheck="#search_bar_thread"> Cerca solo tra i titoli</label></li>
+						</ul></dd>
+					</dl>
+
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Inserito dall'utente:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" autocomplete="off">
+							<p class="explain">Separa i nomi degli utenti con una virgola.</p>
+						</dd>
+					</dl>
+
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Più nuovo del:</label></dt>
+						<dd><input type="text" data-orig-type="date" name="date" value="" class="textCtrl date" id="searchBar_date"></dd>
+					</dl>
+
+					
+				</div>
+				<!-- end block: secondaryControls -->
+
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Cerca" class="button primary Tooltip" title="Trova!">
+						<a href="https://forum.waraccademy.com/index.php?search/" class="button moreOptions Tooltip" title="Ricerca Avanzata">Di Più...</a>
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip PopupControl" title="Ricerche Utili" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							
+						</div>
+					</dd>
+				</dl>
+
+			</div>
+
+			<input type="hidden" name="_xfToken" value="">
+		</form>
+	</fieldset>
+	
+
+</div></li>
+		
+	</ul>
+	
+
+	
+
+	<fieldset class="breadcrumb" style="">
+		<a href="https://forum.waraccademy.com/index.php?misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheoverlay="true" title="Apri Navigazione Veloce"><i class="uix_icon uix_icon-sitemap"></i><!--Salta a...--></a>
+
+		<div class="boardTitle"><strong>WarAccademy</strong></div>
+
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://waraccademy.com/" class="crumb"><span><i class="uix_icon uix_icon-home" title="Home"></i></span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://forum.waraccademy.com/index.php" class="crumb"><span>Forum</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+			
+
+			
+
+			</div>
+	
+		</div>
+	</div>
+	
+
+</div>
+
+<footer>
+	
+
+
+
+
+
+
+
+
+<div id="uix_stickyFooterSpacer"></div>
+
+
+
+<div class="footer">
+	
+		<div class="pageContent noBorderRadiusBottom">
+			<div class="pageWidth">
+
+				
+				
+					<dl class="choosers chooser_widthToggle">
+						<dt>Toggle Width</dt>
+						<dd><a href="javascript: uix.toggleWidth.toggle()" class="Tooltip" title="Toggle Width" rel="nofollow"><span class="uix_icon js-widthIcon uix_icon-expandWidth"></span></a></dd>
+					</dl>
+				
+				
+				
+				
+				<ul class="footerLinks">
+					
+						<li><a href="https://waraccademy.com/" class="homeLink">Home</a></li>
+						
+							<li><a href="https://forum.waraccademy.com/">Contattaci!</a></li>
+						
+						<li><a href="https://forum.waraccademy.com/index.php?help/">Aiuto</a></li>
+					
+					
+						<li><a href="https://forum.waraccademy.com/">Termini e Condizioni d'uso del sito</a></li>
+						
+					
+					<li class="topLink"><a href="https://forum.waraccademy.com/index.php#XenForo"><i class="uix_icon uix_icon-jumpToTop"></i> <span class="uix_hide">Torna in Cima</span></a></li>
+				</ul>
+				
+
+			
+
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+<div class="footerLegal">
+	
+		<div class="pageContent noBorderRadiusTop">
+			<div class="pageWidth">
+			
+				<ul class="uix_socialMediaLinks">
+	<li class="uix_socialLink uix_socialLink--facebook"><a href="https://forum.waraccademy.com/#" target="_blank"><i class="uix_icon uix_icon-facebook"></i></a></li>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <li class="uix_socialLink uix_socialLink--googleplus"><a href="https://forum.waraccademy.com/#" target="_blank"><i class="uix_icon uix_icon-googlePlus"></i></a></li>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+	
+	
+	    <li class="uix_socialLink uix_socialLink--contact"><a href="https://forum.waraccademy.com/"><i class="uix_icon uix_icon-email"></i></a></li>
+	
+	
+
+        
+
+
+
+<!--ADD LIST ITEMS HERE -->
+
+
+
+        <li class="uix_socialLink uix_socialLink--rss"><a href="https://forum.waraccademy.com/index.php?forums/-/index.rss" rel="alternate}" target="_blank"><i class="uix_icon uix_icon-rss"></i></a></li>
+</ul>
+			
+			<div id="copyright">
+				<a href="https://xenforo.com/" class="concealed">Forum software by XenForo™ <span>©2010-2017 XenForo Ltd.</span></a> 
+				<div class="thCopyrightNoticeStyle">Theme designed by <a href="https://www.themehouse.com/xenforo/themes" title="Premium XenForo Themes" rel="nofollow" target="_blank">ThemeHouse</a>.</div>
+				
+			</div>
+			
+			<span class="helper"></span>
+			
+		</div>
+	</div>
+</div>
+
+
+
+	<div id="uix_jumpToFixed" style="opacity: 0; display: none;">
+		
+			<a href="https://forum.waraccademy.com/#XenForo" title="Torna in Cima" data-position="top"><i class="uix_icon uix_icon-jumpToTop"></i></a>
+		
+		
+			<a href="https://forum.waraccademy.com/#XenForo" title="Basso" data-position="bottom"><i class="uix_icon uix_icon-jumpToBottom"></i></a>
+		
+	</div>
+
+</footer>
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1637868180,
+		today: 1637794800,
+		todayDow: 4
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "0.5",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 100,
+		closeSpeed: 50,
+		mask:
+		{
+			color: "#000",
+			opacity: "0.25",
+			loadSpeed: 100,
+			closeSpeed: 50
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"node_list":true,"node_forum":true,"node_category":true,"node_link":true,"thread_list_simple":true,"profile_post_list_simple":true,"bb_code":true,"sidebar_share_page":true,"login_bar":true,"moderator_bar":true,"uix_welcomeBlock":true,"notices":true,"panel_scroller":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "index.php?login/csrf-token-refresh",
+	_jsVersion: "87c63fba",
+	_noRtnProtect: false,
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Annulla",
+
+	a_moment_ago:    "Un attimo fa",
+	one_minute_ago:  "1 minuto fa",
+	x_minutes_ago:   "%minutes% minuti fa",
+	today_at_x:      "Oggi alle %time%",
+	yesterday_at_x:  "Ieri alle %time%",
+	day_x_at_time_y: "%day% alle %time%",
+
+	day0: "Domenica",
+	day1: "Lunedì",
+	day2: "Martedì",
+	day3: "Mercoledì",
+	day4: "Giovedì",
+	day5: "Venerdì",
+	day6: "Sabato",
+
+	_months: "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre",
+	_daysShort: "Dom,Lun,Mar,Mer,Gio,Ven,Sab",
+
+	following_error_occurred: "Attenzione, ho riscontrato un errore",
+	server_did_not_respond_in_time_try_again: "Il server non ha risposto in tempo. Riprova.",
+	logging_in: "Entrando",
+	click_image_show_full_size_version: "Clicca l'immagine per vederla in dimensioni originali.",
+	show_hidden_content_by_x: "Mostra contenuto nascosto da {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://forum.waraccademy.com/index.php",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://forum.waraccademy.com/index.php?search/search&keywords={search_keywords}",
+		"query-input": "required name=search_keywords"
+	}
+}
+</script>
+
+
+
+
+</div> 
+</div>
+<div class="uix_wrapperFix" style="height: 1px; margin-top: -1px;"></div>
+
+
+		</div> 
+	</div> 
+
+	
+
+
+<script>
+
+</script>
+
+<!-- UI.X Version: 1.5.9.1 //-->
+
+
+<div id="calroot" style="display: none; position: absolute;"><div id="calhead"><a id="calprev">←</a><div id="caltitle"></div><a id="calnext">→</a></div><div id="calbody"><div id="caldays"><span>Dom</span><span>Lun</span><span>Mar</span><span>Mer</span><span>Gio</span><span>Ven</span><span>Sab</span></div><div id="calweeks"></div></div></div><div class="Menu JsOnly tabMenu xfx_staffTabLinks" id="XenForoUniq0" style="display: none;">
+												
+													<div class="primaryContent menuHeader">
+														<h3>Staff</h3>
+														<div class="muted">Link Diretti</div>
+													</div>
+														<ul class="secondaryContent blockLinksList">
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Founder">Founder</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#CoFounder">CoFounder</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Admin">Admin</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Developer">Developer</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Gestore">Gestore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Mod">Mod</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Helper">Helper</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Supporter">Supporter</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Ispettore">Ispettore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Helper+">Helper+</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#Collaboratore">Collaboratore</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#SrMod">SrMod</a></li>
+
+              
+
+                     <li><a href="https://forum.waraccademy.com/index.php?XenStaff/#SrAdmin">SrAdmin</a></li>
+
+              
+	</ul>
+													
+												
+											</div><div class="Menu JsOnly tabMenu membersTabLinks" id="XenForoUniq1" style="display: none;">
+												
+													<div class="primaryContent menuHeader">
+														<h3>Membri</h3>
+														<div class="muted">Link Diretti</div>
+													</div>
+									
+													<ul class="secondaryContent blockLinksList">
+													
+														<li><a href="https://forum.waraccademy.com/index.php?members/">Notable Members</a></li>
+														
+														<li><a href="https://forum.waraccademy.com/index.php?online/">Visitatori on-line</a></li>
+														<li><a href="https://forum.waraccademy.com/index.php?recent-activity/">Ultime Attività</a></li>
+														<li><a href="https://forum.waraccademy.com/index.php?find-new/profile-posts">New Profile Posts</a></li>
+													
+													</ul>
+									
+													
+												
+									
+											</div><div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu" style="display: none;"></div><div class="Menu" id="XenForoUniq2" style="display: none;">
+								<div class="primaryContent menuHeader">
+									<h3>Ricerche Utili</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="https://forum.waraccademy.com/index.php?find-new/posts&amp;recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div><div class="Menu" id="XenForoUniq3" style="display: none;">
+								<div class="primaryContent menuHeader">
+									<h3>Ricerche Utili</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="https://forum.waraccademy.com/index.php?find-new/posts&amp;recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./WarAccademy_files/widget_iframe.a53eecb4584348a2ad32ec2ae21f6eae.html" title="Twitter settings iframe" style="display: none;"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./WarAccademy_files/saved_resource.html"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
